@@ -19,3 +19,10 @@ for i, x in enumerate(xs):
     result = eval_poly_at([3,1,4,1,5,9,2,6], x, 337)
     o[i]=result
 print(o)
+
+xs = [1, 148, 336, 189]
+o = [0 for i in xs]
+for i, x in enumerate(xs):
+    result = eval_poly_at([3,4,5,2], x, 337)
+    o[i]=result
+print(o)
